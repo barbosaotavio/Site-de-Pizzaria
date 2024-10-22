@@ -1,7 +1,9 @@
+import styles from './Bebidas.module.css'
+
 function bebidas () {
     return (
-     <div>
-        <ul>
+     <div className={styles.container}>
+        <ul className={styles.caixa}>
             <li>
                <li>Brahma</li>
                <li>Skol</li>
