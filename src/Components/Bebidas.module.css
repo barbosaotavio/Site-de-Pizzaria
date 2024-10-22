@@ -2,18 +2,20 @@
     display: flex;                  /* Ativa o flexbox */
     justify-content: center;       /* Centraliza horizontalmente */
     align-items: center;           /* Centraliza verticalmente */
-    /*height: 100vh;                  Define a altura para 100% da altura da viewport */
+   /*  height: 100vh;                 Define a altura para 100% da altura da viewport */
 }
 
 .caixa {
     width: 200px;                  /* Largura da caixa */
-    height: 500px;                 /* Altura da caixa */
+    height: 200px;                 /* Altura da caixa */
     background-color: #4CAF50;    /* Cor de fundo */
     border: 2px solid #000;        /* Borda */
     border-radius: 10px;           /* Cantos arredondados */
     display: flex;                 /* Para centralizar texto */
     justify-content: center;       /* Centraliza o texto horizontalmente */
     align-items: center;           /* Centraliza o texto verticalmente */
-    color: white;                  /* Cor do texto */
+    color: rgb(5, 5, 5);                  /* Cor do texto */
     font-family: Arial, sans-serif; /* Fonte */
+    white-space: 50px;
 }
+
