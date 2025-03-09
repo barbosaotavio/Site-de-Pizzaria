@@ -1,16 +1,17 @@
-import Bebidas from './Components/Bebidas'
-import './App.css'
+import './App.jsx'
+import Cardapio from './Components/Cardapio.jsx'
+import Titulo from './Components/Titulo.jsx'
+import Button from './Components/Button.jsx'
 
 function App() {
- 
 
   return (
-    <div>
-       <h1>BAR DO MANEL</h1>
-       <h2>Ecolha suas bebidas!</h2>
-  <Bebidas/>
-  
-    </div>
+   <div>
+     <Titulo/>
+     <Button/>
+    <Cardapio/>
+   </div>
+   
    )
 }
 

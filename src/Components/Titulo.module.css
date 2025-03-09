@@ -1,0 +1,15 @@
+.titulo{
+  background-color: red;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  
+}
+
+.button{
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
