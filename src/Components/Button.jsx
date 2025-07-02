@@ -1,12 +1,13 @@
 import styles from './Button.module.css'
+import verificar from './verificar'
 
 function Button() {
     return(
  <div>
-    <input type="text" placeholder="Faça sua pesquisa"/>
+    <input type='number' placeholder="verificar velocidade!"/>
         
-<button>        
-    Pesquisar
+<button onClick={verificar}>        
+    Verificar
 </button>
  </div>
 )
